@@ -18,7 +18,7 @@ public class CoffeeOrderBoard {
     public void add(String name){
         Order newOrder = new Order(nextOrderNumber, name);
                 orders.add(newOrder);
-        logger.info("Додане нове замовлення: {}, newOrder");
+        logger.info("Додане нове замовлення: {}", newOrder);
         nextOrderNumber++;
     }
 

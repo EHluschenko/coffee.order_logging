@@ -29,7 +29,7 @@ public class CoffeeOrderBoard {
             return;
         }
         Order order = orders.remove(0);
-        logger.info("Order deliver: {}, order");
+        logger.info("Order deliver: {}", order);
     }
 
 
